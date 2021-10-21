@@ -1,0 +1,22 @@
+{
+    "mattresses": {
+    "classic": {
+    "name": "Saatva Classic Mattress",
+    "price": "$999",
+    "reviewRating": 2.9,
+    "imageFileName": "/images/classic-carousel.jpg"
+    },
+    "loom": {
+    "name": "Loom & Leaf Mattress",
+    "price": "$1,299",
+    "reviewRating": 4.0,
+    "imageFileName": "loom-carousel.jpg"
+    },
+    "zen": {
+    "name": "Zenhaven Mattress",
+    "price": "$1,599",
+    "reviewRating": 4.5,
+    "imageFileName": "zen-carousel.jpg"
+    }
+    }
+   }

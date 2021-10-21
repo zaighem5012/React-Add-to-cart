@@ -1,0 +1,85 @@
+.active {
+    background-color: #b2a8a8 !important;
+    color: white;
+    border: 1px solid #b2a8a8;
+}
+
+.show {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hide {
+    display: none !important;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+}
+
+main {
+    background-color: gainsboro;
+    border-top: 1px solid #cabfbf;
+    padding: 40px 0px;
+    width: 100%;
+}
+
+.main-sec {
+    display: flex;
+}
+
+.main-content {
+    width: 50%;
+    margin-left: 22px;
+}
+
+.main-content p {
+    padding-bottom: 16px;
+    font-weight: 600;
+}
+
+.actionBtn {
+    display: flex;
+    padding-bottom: 16px;
+}
+
+button {
+    padding: 18px 0px;
+    width: 34%;
+    border: 1px solid #cabfbf;
+}
+
+.img-sec {
+    width: 50%;
+}
+
+button.cart {
+    width: 100%;
+    background-color: rgb(198 146 78);
+    color: white;
+    border: 0px;
+    margin-top: 30px;
+}
+
+p.choose-mattress {
+    margin: 0;
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 700px){
+    .main-sec {
+        display: block;
+    }
+    .img-sec {
+        width: 100%;
+    }
+    .main-content {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+             }
